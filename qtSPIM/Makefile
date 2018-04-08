@@ -10,6 +10,6 @@ USE_TOOLS+=
 
 SVN_REVISION=	712
 BUILD_DEPENDS+=
-
+DEPENDS+= qt5
 .include "../../mk/svn-package.mk
 .include "../../mk/bsd.pkg.mk"
